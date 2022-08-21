@@ -1,4 +1,4 @@
-//  Rabin-Karp Algorithm O(b) 😁;
+//  Rabin-Karp Algorithm using a rolling hash function O(b) 😁;
 // worst case 0(s(b-s)) because sum just ain't that unique 😔
 // => assuming all lower case english letters 😬
 
