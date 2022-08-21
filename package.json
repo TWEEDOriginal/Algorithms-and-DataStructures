@@ -1,0 +1,19 @@
+{
+  "name": "algorithms-and-datastructures",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TWEEDOriginal/Algorithms-and-DataStructures.git"
+  },
+  "author": "TWEEDOriginal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TWEEDOriginal/Algorithms-and-DataStructures/issues"
+  },
+  "homepage": "https://github.com/TWEEDOriginal/Algorithms-and-DataStructures#readme"
+}
