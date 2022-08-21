@@ -1,6 +1,6 @@
 // brute force 😤 O(s(b-s))
 function countAnagramOccurrences(s, b) {
-  if (s < b) return;
+  if (s.length > b.length) return;
   var matchCount = 0;
   var sCounts = {}; // counts for the letters in s
   // construct sCounts
