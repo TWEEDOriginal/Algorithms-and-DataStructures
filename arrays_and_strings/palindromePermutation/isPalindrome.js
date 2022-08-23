@@ -1,3 +1,19 @@
+/**
+ * check if a string is a permutation of a palindrome (case insensitive)
+ *
+ * @example
+ * // returns true
+ * isPalindrome("Tact Coa")
+ *
+ * @param  {string } str - String to check
+ * @return {boolean}  True if input string is a permutation of a
+ *                    palindrome (ignoring spaces), otherwise false
+ *
+ * Time: O(n) where n equals string length
+ * Additional space: O(n) where n equals string length
+ */
+
+
 const isPalindrome = (str) => {
   let allowOdds = false;
   const { dict, arr, newStr } = buildCharFrequencyTable(str);
