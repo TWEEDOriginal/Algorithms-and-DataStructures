@@ -14,7 +14,14 @@
  */
 
 const rotateMatrix = (matrix) => {
-  let n = matrix.length;
+  const n = matrix.length;
+  if (!matrix || n === 0 || n !== matrix[0].length) {
+    throw new Error('invalid matrix');
+  }
+  if (n < 2) {
+    return matrix; // no need to do anything to rotate a 1,1 matrix
+  }
+
   let newMatrix = [];
 
   for (let j = 0; j < n; j++) {
