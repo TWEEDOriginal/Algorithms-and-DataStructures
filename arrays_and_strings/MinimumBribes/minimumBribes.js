@@ -19,6 +19,7 @@ function minimumBribes(q) {
     temp;
   let t;
 
+  // populate new array with proper queue order
   for (let i = 0; i < n; i++) {
     realQueue.push(i + 1);
   }
@@ -49,6 +50,6 @@ function minimumBribes(q) {
       }
     }
   }
-  return bribe
+  return bribe;
 }
 console.log(minimumBribes([1, 2, 5, 3, 7, 8, 6, 4]), 7);
