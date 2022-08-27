@@ -4,10 +4,13 @@
 
 import alphabetDict from "./alphabetDict.js";
 
-const sCounts = {},
+let sCounts = {},
   bCounts = {};
 
 function optimizedCountAnagramOccurrences(s, b) {
+  sCounts = {};
+  bCounts = {};
+  if (s === b) return 1;
   if (s.length > b.length) return;
   let sHash = 0,
     bHash = 0;
@@ -49,5 +52,8 @@ function compareHash(h1, h2, beginning, last, b) {
 }
 
 console.log(
-  optimizedCountAnagramOccurrences("abbc", "cbabadcbbabbcbabaabccbabc")
+  optimizedCountAnagramOccurrences("abbc", "cbabadcbbabbcbabaabccbabc"),
+  7
 );
+
+export default optimizedCountAnagramOccurrences;
