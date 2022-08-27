@@ -4,7 +4,8 @@
  * Once all operations have been performed, return the maximum value in the array.
  *
  * N = number of zeroes
- * Time: O(N)
+ * Q = |queries|
+ * Time: O(N + Q)
  * Additional space: O(N)
  *
  * @param  {n}  - number of zeroes
