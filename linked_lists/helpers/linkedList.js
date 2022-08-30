@@ -4,8 +4,9 @@ ADT:
 # Main operations
 append(value)         -> Add a node in the end : time Complexity O(n)
 prepend(value)        -> Add a node in the beginning : time Complexity O(1)
-delete(value)        ->  Deletes a node from the LinkedList : time Complexity O(n)
+delete(value)         ->  Deletes a node from the LinkedList : time Complexity O(n)
 printList()           -> Return a string with all items
+toArray()             -> Return an array with all items
 */
 
 class Node {
@@ -71,13 +72,39 @@ class LinkedList {
     }
     return str;
   }
+
+  arrayToLinkedList(arr) {
+    if (arr.length === 0) {
+      return null;
+    }
+
+    for (let i = 0; i < arr.length; i++) {
+      this.append(arr[i]);
+    }
+
+    return arr;
+  }
+
+  toArray() {
+    let curr = this.head;
+    let arr = [];
+    while (curr) {
+      arr.push(curr.value);
+      curr = curr.next;
+    }
+    return arr;
+  }
 }
 
 let new_list = new LinkedList();
-new_list.append(10);
-new_list.append(11);
-console.log(new_list.printList());
-new_list.prepend(9);
-console.log(new_list.printList());
-new_list.delete(10);
-console.log(new_list.printList());
+// new_list.arrayToLinkedList([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+// new_list.append(10);
+// console.log(new_list.toArray())
+// new_list.append(11);
+// console.log(new_list.printList());
+// new_list.prepend(9);
+// console.log(new_list.printList());
+// new_list.delete(10);
+// console.log(new_list.printList());
+
+export default LinkedList;
