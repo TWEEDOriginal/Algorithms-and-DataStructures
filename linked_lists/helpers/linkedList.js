@@ -6,6 +6,7 @@ append(value)         -> Add a node in the end : time Complexity O(n)
 prepend(value)        -> Add a node in the beginning : time Complexity O(1)
 delete(value)         ->  Deletes a node from the LinkedList : time Complexity O(n)
 printList()           -> Return a string with all items
+arrayToLinkedList     -> Adds all array items to the linked list
 toArray()             -> Return an array with all items
 */
 
@@ -96,7 +97,7 @@ class LinkedList {
   }
 }
 
-let new_list = new LinkedList();
+// let new_list = new LinkedList();
 // new_list.arrayToLinkedList([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
 // new_list.append(10);
 // console.log(new_list.toArray())
