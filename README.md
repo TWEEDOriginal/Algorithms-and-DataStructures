@@ -34,7 +34,8 @@
 - [x] Frequency Queries - [Hackerrank](https://www.hackerrank.com/challenges/frequency-queries)
 
 #### Linked Lists
-- [ ] Remove Dups - CTCI
+- [x] Remove Dups - CTCI
+- [x] Return Kth to Last - CTCI
 
 <br>
 
