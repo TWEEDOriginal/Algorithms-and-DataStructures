@@ -4,7 +4,7 @@
 
 - This repository contains JavaScript attempts on algorithm and data structures questions gotten from multiple sources such as [Cracking the Coding Interview (CTCI) 6th edition](https://www.crackingthecodinginterview.com/), [Hackerrank](https://www.hackerrank.com/) and [Leetcode](https://leetcode.com/).  
 
-- The files only contain code, and do not contain ANY question. For CTCI questions, please support Gayle by purchasing the [book](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850). For other questions you can find them for free on their respective platforms.
+- The files only contain code, and do not contain ANY question. For CTCI questions, please support [Gayle Laakmann McDowell](https://www.linkedin.com/in/gaylemcd) by purchasing the [book](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850). For other questions you can find them for free on their respective platforms.
 
 - In each JavaScript file, there are simple tests to check that the code is working as expected. For convenience, simple logging is used to test the functions. In your terminal type `node <path-to-fileName>.js` to run the tests.
 
@@ -33,6 +33,8 @@
 - [x] Count Triplets - [Hackerrank](https://www.hackerrank.com/challenges/count-triplets-1)
 - [x] Frequency Queries - [Hackerrank](https://www.hackerrank.com/challenges/frequency-queries)
 
+#### Linked Lists
+- [ ] Remove Dups - CTCI
 
 <br>
 
