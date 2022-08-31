@@ -37,7 +37,7 @@
 - [x] Remove Dups - CTCI
 - [x] Return Kth to Last - CTCI
 - [x] Delete Middle Node - CTCI
-
+- [ ] Partition - CTCI
 <br>
 
 ## Test

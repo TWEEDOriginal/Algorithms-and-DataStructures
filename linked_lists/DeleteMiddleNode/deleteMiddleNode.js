@@ -5,7 +5,7 @@
  *
  * N = size of linkedlist
  * Time: O(N)
- * Additional space: O(N)
+ * Additional space: O(1)
  *
  * @param  {node} Node - node to be deleted
  * @return {boolean}
