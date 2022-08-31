@@ -35,7 +35,8 @@
 
 #### Linked Lists
 - [x] Remove Dups - CTCI
-- [ ] Return Kth to Last - CTCI
+- [x] Return Kth to Last - CTCI
+- [x] Delete Middle Node - CTCI
 
 <br>
 
