@@ -9,7 +9,7 @@
  * @return {number}   - value of kth element from last
  */
 
-import LinkedList from "../helpers/linkedList.js";
+ import { LinkedList} from "../helpers/linkedList.js";
 
 // don't use size property of LinkedList
 const returnKthToLast = (arr, k) => {
