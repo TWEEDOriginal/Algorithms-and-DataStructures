@@ -11,7 +11,7 @@
  * @return {boolean}
  */
 
-import LinkedList from "../helpers/linkedList.js";
+ import { LinkedList} from "../helpers/linkedList.js";
 
 const deleteMiddleNode = (node) => {
     
