@@ -10,14 +10,14 @@ arrayToLinkedList     -> Adds all array items to the linked list
 toArray()             -> Return an array with all items
 */
 
-class Node {
+export class Node {
   constructor(val) {
     this.value = val;
     this.next = null;
   }
 }
 
-class LinkedList {
+export class LinkedList {
   constructor() {
     this.head = null;
     this.size = 0;
@@ -107,5 +107,3 @@ class LinkedList {
 // console.log(new_list.printList());
 // new_list.delete(9);
 // console.log(new_list.printList());
-
-export default LinkedList;
