@@ -44,7 +44,7 @@ class LinkedList {
 
   delete(value) {
     if (this.head === null) return -1;
-    if (this.head === value) {
+    if (this.head.value === value) {
       this.head = this.head.next;
       this.size--;
       return value;
@@ -105,7 +105,7 @@ class LinkedList {
 // console.log(new_list.printList());
 // new_list.prepend(9);
 // console.log(new_list.printList());
-// new_list.delete(10);
+// new_list.delete(9);
 // console.log(new_list.printList());
 
 export default LinkedList;
