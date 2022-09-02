@@ -9,7 +9,7 @@
  * @return {array}   int[] - deduplicated items
  */
 
-import LinkedList from "../helpers/linkedList.js";
+ import { LinkedList} from "../helpers/linkedList.js";
 
 const removeDuplicates = (arr) => {
   let list = new LinkedList();
