@@ -9,7 +9,7 @@
  * @return {number}   - value of kth element from last
  */
 
-import LinkedList from "../helpers/linkedList.js";
+import { LinkedList} from "../helpers/linkedList.js";
 
 let res, node;
 
