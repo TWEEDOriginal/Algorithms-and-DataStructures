@@ -38,6 +38,7 @@
 - [x] Return Kth to Last - CTCI
 - [x] Delete Middle Node - CTCI
 - [x] Partition - CTCI
+- [ ] Sum Lists - CTCI
 <br>
 
 ## Test
