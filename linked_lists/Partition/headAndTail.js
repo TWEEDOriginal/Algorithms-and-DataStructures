@@ -43,4 +43,4 @@ console.log(
   [5, 1, 3, 2, 2, 3, 5, 4, 9, 15, 30, 8, 7, 15, 6, 7]
 );
 
-// new list with head and tail method
+
