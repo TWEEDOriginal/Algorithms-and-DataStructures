@@ -45,9 +45,20 @@ const sumLists = (arr1, arr2) => {
     curr1 = curr1.next;
   }
 
+  if (remainder > 0) {
+    prev1.next = new Node(remainder);
+  }
+
   return list1.toArray();
 };
 
+console.log(sumLists([4, 4], [4, 8]), [8, 2, 1]);
+console.log(sumLists([4, 5, 3], [8]), [2, 6, 3]);
+console.log(sumLists([2, 9], [4, 9, 9, 9, 9, 9]), [6, 8, 0, 0, 0, 0, 1]);
 console.log(sumLists([7, 1, 6], [5, 9, 2]), [2, 1, 9]);
 console.log(sumLists([7, 1], [5, 9, 2]), [2, 1, 3]);
 console.log(sumLists([7, 1, 6], [5, 9]), [2, 1, 7]);
+console.log(
+  sumLists([0], [9, 8, 7, 6, 5, 4, 3, 2, 1]),
+  [9, 8, 7, 6, 5, 4, 3, 2, 1]
+);
