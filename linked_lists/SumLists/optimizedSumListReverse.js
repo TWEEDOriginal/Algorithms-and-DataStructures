@@ -2,12 +2,13 @@
  * adds two single digit numbers
  * returns sum repd as a linked list
  *
- * N = |linkedlist|
+ * N = max(|list1|, |list2|)
  * Time: O(N)
  * Additional space: O(1)
  *
  * @param  {array}  int[] - linkedlist items
- * @return {array}   int[] - partitioned array
+ * @param  {array}  int[] - linkedlist items
+ * @return {array}   int[] - linkedlist of sum digits
  */
 
 import { LinkedList, Node } from "../helpers/linkedList.js";
