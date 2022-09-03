@@ -15,7 +15,8 @@ import { LinkedList, Node } from "../helpers/linkedList.js";
 const partition = (arr, x) => {
   let list = new LinkedList();
   list.arrayToLinkedList(arr);
-
+  if (!list.head)
+     throw new Error('List cannot be Empty')
   let newList = new LinkedList();
   newList.append(list.head.value);
   let tail = newList.head;
@@ -42,5 +43,3 @@ console.log(
   partition([4, 9, 15, 30, 5, 8, 3, 2, 2, 3, 7, 1, 15, 5, 6, 7], 6),
   [5, 1, 3, 2, 2, 3, 5, 4, 9, 15, 30, 8, 7, 15, 6, 7]
 );
-
-
