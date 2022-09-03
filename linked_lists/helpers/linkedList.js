@@ -40,6 +40,7 @@ export class LinkedList {
     let node = new Node(value);
     node.next = this.head;
     this.head = node;
+    this.size++;
   }
 
   delete(value) {
