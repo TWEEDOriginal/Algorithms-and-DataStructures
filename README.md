@@ -39,6 +39,7 @@
 - [x] Delete Middle Node - CTCI
 - [x] Partition - CTCI
 - [x] Sum Lists - CTCI
+- [x] Palindrome - CTCI
 <br>
 
 ## Test
