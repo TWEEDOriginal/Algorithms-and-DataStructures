@@ -21,6 +21,7 @@ export class LinkedList {
   constructor() {
     this.head = null;
     this.size = 0;
+    //Me don't feel like using this.tail
   }
   append(value) {
     let node = new Node(value);
@@ -75,13 +76,35 @@ export class LinkedList {
     return str;
   }
 
+  getTail() {
+    let curr = this.head,
+      tail = this.head;
+    while (curr) {
+      tail = curr;
+      curr = curr.next;
+    }
+    return tail;
+  }
+
   arrayToLinkedList(arr) {
     if (arr.length === 0) {
       return null;
     }
 
-    for (let i = 0; i < arr.length; i++) {
-      this.append(arr[i]);
+    let tail;
+    if (this.head === null) {
+      this.head = new Node(arr[0]);
+      tail = this.head;
+    } else {
+      tail = this.getTail();
+      tail.next = new Node(arr[0]);
+      tail = tail.next;
+    }
+    this.size++;
+    for (let i = 1; i < arr.length; i++) {
+      tail.next = new Node(arr[i]);
+      tail = tail.next;
+      this.size++;
     }
 
     return arr;
@@ -99,9 +122,9 @@ export class LinkedList {
 }
 
 // let new_list = new LinkedList();
-// new_list.arrayToLinkedList([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+// new_list.arrayToLinkedList([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
 // new_list.append(10);
-// console.log(new_list.toArray())
+// console.log(new_list.toArray());
 // new_list.append(11);
 // console.log(new_list.printList());
 // new_list.prepend(9);
