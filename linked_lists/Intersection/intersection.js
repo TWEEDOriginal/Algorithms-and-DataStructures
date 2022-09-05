@@ -60,3 +60,5 @@ const findIntersection = (arr1, arr2, intersect) => {
 
 console.log(findIntersection([3, 1, 5, 9, 7, 2, 1], [4, 6, 7, 2, 1], true), [ 7, 2, 1 ]);
 console.log(findIntersection([3, 1, 5, 9, 7, 2, 1], [4, 6, 7, 2, 1], false), null);
+console.log(findIntersection([1], [1], true), [1]);
+console.log(findIntersection([1], [2], true), null);
