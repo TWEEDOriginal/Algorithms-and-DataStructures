@@ -40,6 +40,9 @@
 - [x] Partition - CTCI
 - [x] Sum Lists - CTCI
 - [x] Palindrome - CTCI
+- [x] Intersection - CTCI
+- [ ] Loop Detection - CTCI
+
 <br>
 
 ## Test
