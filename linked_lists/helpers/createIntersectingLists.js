@@ -9,7 +9,7 @@
  *
  * @param  {array}   int[]
  * @param  {array}   int[]
- * @param  {boolean} int[] - to intersect or not
+ * @param  {boolean} boolean - to intersect or not
  * @return {array}   int[] - linkedlist of sum digits
  */
 
