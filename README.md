@@ -41,7 +41,7 @@
 - [x] Sum Lists - CTCI
 - [x] Palindrome - CTCI
 - [x] Intersection - CTCI
-- [ ] Loop Detection - CTCI
+- [x] Loop Detection - CTCI
 
 <br>
 
