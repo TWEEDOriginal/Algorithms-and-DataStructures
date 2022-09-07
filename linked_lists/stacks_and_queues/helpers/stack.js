@@ -2,11 +2,11 @@
 
 /*
 Interface:
-- pop()
-- push(value)
-- peek()
-- isEmpty()
-- size()
+- pop()       -> Remove the top item from the stack : time Complexity O(1)
+- push(value) -> Add an item to the top of the stack : time Complexity O(1)
+- peek()      -> Return the top of the stack : time Complexity O(1)
+- isEmpty()   -> Check if the stack is empty : time Complexity O(1)
+- size()      -> Get the number of items in the stack : time Complexity O(n)
 */
 
 import { EmptyStackException } from "./errors.js";
