@@ -12,7 +12,7 @@
 
 import { LinkedList } from "./linkedList.js";
 
-export default function createLinkedLists(arr, beginning_index, circle) {
+export default function createLinkedList(arr, beginning_index, circle) {
   let list = new LinkedList();
   let arr_length = arr.length;
 
@@ -30,6 +30,6 @@ export default function createLinkedLists(arr, beginning_index, circle) {
   return list;
 }
 
-// createLinkedLists([1, 2, 3, 4, 5], 2, true);
-// createLinkedLists([1, 2, 3, 4, 5], 2, false);
-// createLinkedLists([1, 2, 3, 4, 5, 6, 7], 7, true);
+// createLinkedList([1, 2, 3, 4, 5], 2, true);
+// createLinkedList([1, 2, 3, 4, 5], 2, false);
+// createLinkedList([1, 2, 3, 4, 5, 6, 7], 7, true);
