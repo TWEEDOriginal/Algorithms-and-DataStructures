@@ -4,3 +4,10 @@ export class EmptyStackException extends Error {
     this.name = "EmptyStackException";
   }
 }
+
+export class EmptyQueueException extends Error {
+  constructor(message) {
+    super(message);
+    this.name = "EmptyQueueException";
+  }
+}
