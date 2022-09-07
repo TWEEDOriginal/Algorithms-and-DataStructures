@@ -43,6 +43,8 @@
 - [x] Intersection - CTCI
 - [x] Loop Detection - CTCI
 
+#### Stacks and Queues
+
 <br>
 
 ## Test
