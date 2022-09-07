@@ -56,13 +56,13 @@ export class Stack {
   }
 }
 
-const newStack = new Stack();
-console.log(newStack);
-console.log(newStack.isEmpty());
-newStack.push(5);
-newStack.push(6);
-newStack.push(7);
-console.log(newStack);
-console.log(newStack.peek());
-console.log(newStack.isEmpty());
-console.log(newStack.size());
+// const newStack = new Stack();
+// console.log(newStack);
+// console.log(newStack.isEmpty());
+// newStack.push(5);
+// newStack.push(6);
+// newStack.push(7);
+// console.log(newStack);
+// console.log(newStack.peek());
+// console.log(newStack.isEmpty());
+// console.log(newStack.size());
