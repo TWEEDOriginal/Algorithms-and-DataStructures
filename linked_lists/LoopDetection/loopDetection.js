@@ -52,4 +52,4 @@ console.log(findBeginning([1, 2, 3, 4, 5], 2, true));
 console.log(findBeginning([1, 2, 3, 4, 5], 2, false));
 console.log(findBeginning([1, 2, 3, 4, 5, 6], 0, true));
 console.log(findBeginning([], 0, true));
-console.log(findBeginning([1, 2, 3, 4, 5, 6], 5, true));
+console.log(findBeginning([1, 2, 3, 4, 5, 6, 7], 5, true));
