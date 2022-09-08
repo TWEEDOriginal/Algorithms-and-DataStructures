@@ -44,6 +44,7 @@
 - [x] Loop Detection - CTCI
 
 #### Stacks and Queues
+- [x] Three in One - CTCI
 
 <br>
 
