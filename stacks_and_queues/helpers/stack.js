@@ -25,7 +25,7 @@ export class Stack {
 
   pop() {
     if (!this.top) throw new EmptyStackException();
-    const item = top.data;
+    const item = this.top.data;
     this.top = this.top.previous;
     return item;
   }
@@ -62,7 +62,8 @@ export class Stack {
 // newStack.push(5);
 // newStack.push(6);
 // newStack.push(7);
-// console.log(newStack);
+// console.log(newStack.pop());
+// console.log(newStack.peek());
 // console.log(newStack.peek());
 // console.log(newStack.isEmpty());
 // console.log(newStack.size());
