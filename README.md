@@ -45,6 +45,9 @@
 
 #### Stacks and Queues
 - [x] Three in One - CTCI
+- [x] Stack Min - CTCI
+- [x] Stack of Plates - CTCI
+- [ ] Queue via Stacks - CTCI
 
 <br>
 

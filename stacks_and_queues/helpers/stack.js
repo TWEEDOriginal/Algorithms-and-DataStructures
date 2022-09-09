@@ -52,7 +52,25 @@ export class Stack {
       curr = curr.previous;
       count++;
     }
-    return count
+    return count;
+  }
+}
+
+export class StackWithSize extends Stack {
+  constructor() {
+    super();
+    this.stackSize = 0;
+  }
+
+  append(data) {
+    this.push(data);
+    this.stackSize++;
+  }
+
+  remove() {
+    const data = this.pop();
+    this.stackSize--;
+    return data;
   }
 }
 

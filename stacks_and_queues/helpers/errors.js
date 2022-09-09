@@ -25,3 +25,10 @@ export class InvalidStackException extends Error {
     this.name = "InvalidStackException";
   }
 }
+
+export class EmptySetOfStacksException extends Error {
+  constructor(message) {
+    super(message);
+    this.name = "EmptySetOfStacksException";
+  }
+}
