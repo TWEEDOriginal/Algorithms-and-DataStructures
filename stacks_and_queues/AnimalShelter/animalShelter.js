@@ -57,7 +57,7 @@ class AnimalShelter extends Queue {
   }
 
   hasCats() {
-    this.catCount > 0;
+    return this.catCount > 0;
   }
 }
 
