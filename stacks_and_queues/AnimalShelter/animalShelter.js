@@ -18,6 +18,8 @@ class AnimalShelter extends Queue {
   }
 
   dequeueAny() {
+    if (!this.hasDogs && !this.hasCats)
+      throw new Error("This shelter is empty");
     const animal = this.remove();
     animal === "dog" ? this.dogCount-- : this.catCount--;
     return animal;
