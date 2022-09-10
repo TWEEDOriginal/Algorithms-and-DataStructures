@@ -49,7 +49,7 @@
 - [x] Stack of Plates - CTCI
 - [x] Queue via Stacks - CTCI
 - [x] Sort Stack - CTCI
-- [ ] Animal Shelter - CTCI
+- [x] Animal Shelter - CTCI
 
 <br>
 
