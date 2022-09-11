@@ -51,6 +51,7 @@
 - [x] Sort Stack - CTCI
 - [x] Animal Shelter - CTCI
 - [x] Balanced Brackets - [HackerRank](https://www.hackerrank.com/challenges/balanced-brackets/)
+- [x] Largest Rectangle - [HackerRank](https://www.hackerrank.com/challenges/largest-rectangle/)
 
 <br>
 
