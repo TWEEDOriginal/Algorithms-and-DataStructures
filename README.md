@@ -50,6 +50,7 @@
 - [x] Queue via Stacks - CTCI
 - [x] Sort Stack - CTCI
 - [x] Animal Shelter - CTCI
+- [x] Balanced Brackets - [HackerRank](https://www.hackerrank.com/challenges/balanced-brackets/)
 
 <br>
 
