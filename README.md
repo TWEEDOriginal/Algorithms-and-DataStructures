@@ -54,6 +54,7 @@
 - [x] Largest Rectangle - [HackerRank](https://www.hackerrank.com/challenges/largest-rectangle/)
 - [x] Min Max Riddle - [HackerRank](https://www.hackerrank.com/challenges/min-max-riddle/)
 - [x] Poisonous Plants - [HackerRank](https://www.hackerrank.com/challenges/poisonous-plants/)
+- [x] Castle on the Grid - [HackerRank](https://www.hackerrank.com/challenges/castle-on-the-grid/)
 
 <br>
 
