@@ -20,7 +20,7 @@ const poisonousPlants = (plants) => {
 
   stack.push({ pesticide_value: plants[0], plantDays: 0 });
 
-  for (let i = 0; i <= plants.length; i++) {
+  for (let i = 1; i <= plants.length; i++) {
     plantDays = 0;
 
     while (stack.top && stack.top.data.pesticide_value >= plants[i]) {
