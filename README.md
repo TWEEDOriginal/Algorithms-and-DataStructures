@@ -27,7 +27,8 @@
 - [x] Minimum Bribes - [HackerRank](https://www.hackerrank.com/challenges/new-year-chaos/problem)
 - [x] Minimum Swaps 2 - [HackerRank](https://www.hackerrank.com/challenges/minimum-swaps-2)
 - [x] Array Manipulation - [HackerRank](https://www.hackerrank.com/challenges/crush)
-- [x] Sherlock and the Valid String - [HackerRank](https://www.hackerrank.com/challenges/sherlock-and-valid-string/)
+- [x] Sherlock and the Valid String - [HackerRank](https://www.hackerrank.com/challenges/sherlock-and-valid-string/) 
+- [x] Special String Again - [HackerRank](https://www.hackerrank.com/challenges/special-palindrome-again/) 
 
 #### Dictionaries and Hashmaps
 - [x] Sherlock and Anagrams - [HackerRank](https://www.hackerrank.com/challenges/sherlock-and-anagrams)
