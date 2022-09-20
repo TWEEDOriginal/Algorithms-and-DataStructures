@@ -29,6 +29,8 @@
 - [x] Array Manipulation - [HackerRank](https://www.hackerrank.com/challenges/crush)
 - [x] Sherlock and the Valid String - [HackerRank](https://www.hackerrank.com/challenges/sherlock-and-valid-string/) 
 - [x] Special String Again - [HackerRank](https://www.hackerrank.com/challenges/special-palindrome-again/) 
+- [x] String to Dictionary
+- [x] Common Child - [HackerRank](https://www.hackerrank.com/challenges/common-child/) 
 
 #### Dictionaries and Hashmaps
 - [x] Sherlock and Anagrams - [HackerRank](https://www.hackerrank.com/challenges/sherlock-and-anagrams)
