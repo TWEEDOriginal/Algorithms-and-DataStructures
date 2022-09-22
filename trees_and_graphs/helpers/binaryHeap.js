@@ -1,3 +1,22 @@
+// implementation of the BinarySearchTree
+/*
+ADT:
+# Main operations
+insert(data)         -> Adds a node to the rightmost spot at 
+                        the bottom of the heap
+                        : time Complexity O(log(n))
+                        n = 2^h - 1 where h is tree height
+          
+                        number of moves reduces by half as 
+                        you go down the tree
+
+extract_min()        -> remove the mimimum element 
+                        by replacing it with last element then 
+                        moving top down until balance is restored
+                        : time Complexity O(log(n))
+
+*/
+
 import {
   Tree,
   BinaryNode,
@@ -85,7 +104,6 @@ class MinHeap extends Tree {
     temp = this.root.value;
     this.root.value = node.value;
     node.value = temp;
-
 
     curr = this.root;
     let min;

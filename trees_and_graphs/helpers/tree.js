@@ -1,3 +1,13 @@
+// implementation of the BinarySearchTree
+/*
+ADT:
+# Main operations
+insert(data)         -> Add a node to the left if <= current node
+                        or to the right if > current node
+                        : time Complexity O(log(n))
+                        n = 2^h - 1 where h is tree height
+*/
+
 export class Node {
   constructor(value) {
     this.value = value;
