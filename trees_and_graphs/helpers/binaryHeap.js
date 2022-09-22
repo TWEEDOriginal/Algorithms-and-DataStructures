@@ -146,17 +146,17 @@ class MinHeap extends Tree {
   }
 }
 
-const tree = new MinHeap();
-tree.insert(8);
-tree.insert(10);
-tree.insert(4);
-tree.insert(20);
-tree.insert(2);
-tree.insert(6);
-console.log(tree);
-console.log(inOrderTransversal([], tree.root));
-console.log(preOrderTransversal([], tree.root));
-console.log(tree.extract_min());
-console.log(tree);
-console.log(inOrderTransversal([], tree.root));
-console.log(preOrderTransversal([], tree.root));
+// const tree = new MinHeap();
+// tree.insert(8);
+// tree.insert(10);
+// tree.insert(4);
+// tree.insert(20);
+// tree.insert(2);
+// tree.insert(6);
+// console.log(tree);
+// console.log(inOrderTransversal([], tree.root));
+// console.log(preOrderTransversal([], tree.root));
+// console.log(tree.extract_min());
+// console.log(tree);
+// console.log(inOrderTransversal([], tree.root));
+// console.log(preOrderTransversal([], tree.root));
