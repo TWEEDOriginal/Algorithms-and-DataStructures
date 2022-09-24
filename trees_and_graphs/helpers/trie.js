@@ -15,6 +15,8 @@ delete(word)           -> Delete a word: time Complexity O(n)
 
 import { Tree } from "./tree.js";
 
+// could have had this.isLeaf to indicate
+// if it's the end of word
 export class TrieNode {
   constructor(value) {
     this.value = value;
@@ -22,6 +24,8 @@ export class TrieNode {
   }
 }
 
+// could have used a boolean flag 
+// on the parent node instead
 export class TerminatingTrieNode extends TrieNode {
   constructor() {
     super("*");
