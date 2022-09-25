@@ -30,7 +30,7 @@ function counts(teamA, teamB) {
   let x, count;
   for (let j = 0; j < teamB.length; j++) {
     x = teamB[j];
-    while (!map[x] && x >= 1) {
+    while (!map[x] && x >= teamA[0]) {
       x--;
     }
     count = map[x] ? map[x] : 0;
@@ -40,6 +40,7 @@ function counts(teamA, teamB) {
 }
 
 console.log(counts([1, 2, 3], [2, 4]));
-console.log(counts([1, 4, 1, 5, 9], [3, 1, 5, 10])); 
+console.log(counts([1, 4, 1, 5, 9], [3, 1, 5, 10]));
 console.log(counts([1, 2, 3, 4, 7, 9], [0, 1, 2, 1, 1, 4]));
 console.log(counts([0, 0, 0, 1, 2, 3, 4, 7, 9], [0, 1, 2, 1, 1, 4]));
+console.log(counts([7, 9], [4, 5, 6, 11]));
