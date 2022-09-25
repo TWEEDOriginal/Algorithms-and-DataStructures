@@ -4,7 +4,7 @@
  * the input isn't in the trie
  *
  * N = |string|
- * M = |alphabet|
+ * M = |alphabets|
  * Time: O(N^2*M) 💀
  * Additional space: O(N*M)
  *
