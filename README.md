@@ -31,6 +31,7 @@
 - [x] Special String Again - [HackerRank](https://www.hackerrank.com/challenges/special-palindrome-again/) 
 - [x] String to Dictionary
 - [x] Common Child - [HackerRank](https://www.hackerrank.com/challenges/common-child/) 
+- [x] Football Scores - HackerRank coding interview question 
 
 #### Dictionaries and Hashmaps
 - [x] Sherlock and Anagrams - [HackerRank](https://www.hackerrank.com/challenges/sherlock-and-anagrams)
