@@ -27,14 +27,20 @@ function counts(teamA, teamB) {
     map[teamA[i]] = i + 1;
   }
 
-  let x, count;
+  let x;
   for (let j = 0; j < teamB.length; j++) {
     x = teamB[j];
-    while (!map[x] && x >= teamA[0]) {
-      x--;
+
+    if (x >= teamA[0]) {
+      while (!map[x]) {
+        x--;
+      }
+
+      res.push(map[x]);
+      continue;
     }
-    count = map[x] ? map[x] : 0;
-    res.push(count);
+
+    res.push(0);
   }
   return res;
 }
