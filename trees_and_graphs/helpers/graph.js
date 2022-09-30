@@ -111,8 +111,8 @@ export class Graph {
   }
 }
 
-const UNDIRECTED = Symbol("undirected graph"); // two-ways edges
-const DIRECTED = Symbol("directed graph"); // one-way edges
+export const UNDIRECTED = Symbol("undirected graph"); // two-ways edges
+export const DIRECTED = Symbol("directed graph"); // one-way edges
 
 export const printGraph = (graph) => {
   const map = {};
