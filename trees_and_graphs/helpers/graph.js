@@ -114,7 +114,7 @@ export class Graph {
 const UNDIRECTED = Symbol("undirected graph"); // two-ways edges
 const DIRECTED = Symbol("directed graph"); // one-way edges
 
-const printGraph = (graph) => {
+export const printGraph = (graph) => {
   const map = {};
   let adjs = [];
   for (let [key, value] of graph.nodes) {
