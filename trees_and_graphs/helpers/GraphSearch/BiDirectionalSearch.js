@@ -4,6 +4,7 @@
  * When their searches collide,
  * we have found a path.
  * faster search than bfs.
+ * useful for only UNDIRECTED paths
  *
  * N = |vertices|
  * d = |height|
