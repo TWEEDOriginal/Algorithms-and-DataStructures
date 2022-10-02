@@ -83,12 +83,12 @@ graph.addEdge(9, 5);
 graph.addEdge(10, 6);
 graph.addEdge(2, 11);
 const [end] = graph.addEdge(20, 11);
-// let values = [];
+let values = [];
 
-// for (let node of search(start)) {
-//   values.push(node.value);
-// }
-// console.log(values, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
+for (let node of search(start)) {
+  values.push(node.value);
+}
+console.log(values, [1, 2, 3, 4, 5, 11, 6, 7, 8, 9, 10]);
 
 console.log(breadthFirstSearch(start, end));
 console.log(breadthFirstSearch(start, new Node(10)));
