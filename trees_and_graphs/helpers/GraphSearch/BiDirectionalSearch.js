@@ -15,7 +15,7 @@
  */
 
 import { Queue } from "../../../stacks_and_queues/helpers/queue.js";
-import { Graph, UNDIRECTED, Node } from "../graph.js";
+// import { Graph, UNDIRECTED, Node } from "../graph.js";
 import { LinkedList } from "../../../linked_lists/helpers/linkedList.js";
 
 export const search = (start, end) => {
@@ -81,19 +81,19 @@ export const search = (start, end) => {
 
   return path;
 };
-const graph = new Graph(UNDIRECTED);
+// const graph = new Graph(UNDIRECTED);
 
-const [start] = graph.addEdge(1, 2);
-graph.addEdge(1, 3);
-graph.addEdge(1, 4);
-graph.addEdge(5, 2);
-graph.addEdge(6, 3);
-graph.addEdge(7, 3);
-graph.addEdge(8, 4);
-graph.addEdge(9, 5);
-graph.addEdge(10, 6);
-graph.addEdge(2, 11);
-const [end] = graph.addEdge(20, 11);
+// const [start] = graph.addEdge(1, 2);
+// graph.addEdge(1, 3);
+// graph.addEdge(1, 4);
+// graph.addEdge(5, 2);
+// graph.addEdge(6, 3);
+// graph.addEdge(7, 3);
+// graph.addEdge(8, 4);
+// graph.addEdge(9, 5);
+// graph.addEdge(10, 6);
+// graph.addEdge(2, 11);
+// const [end] = graph.addEdge(20, 11);
 
-console.log(search(start, end));
-console.log(search(start, new Node(10)));
+// console.log(search(start, end));
+// console.log(search(start, new Node(10)));
