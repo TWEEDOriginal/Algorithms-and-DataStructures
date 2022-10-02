@@ -6,7 +6,7 @@
  * Time: O(N)
  * Additional space: O(N)
  *
- * @param  {node} Vertex - root node to search from
+ * @param  {Node} Vertex - root node to search from
  * @return {set} - set containing all found nodes
  */
 
