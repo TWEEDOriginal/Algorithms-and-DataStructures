@@ -3,7 +3,8 @@
  * (or just any path) btw two nodes
  *
  * N = |vertices|
- * Time: O(N)
+ * d = |height|
+ * Time: O(N^d)
  * Additional space: O(N)
  *
  * @param  {node} Vertex - root node to search from
