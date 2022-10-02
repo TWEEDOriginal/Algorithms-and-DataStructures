@@ -10,8 +10,9 @@
  * Time: O(N^(d/2))
  * Additional space: O(N)
  *
- * @param  {Node} Vertex - root node to search from
- * @return {set} - set containing all found nodes
+ * @param  {Node} Start - start node
+ * @param  {Node} End - end node
+ * @return {array} - containing the path from start to End
  */
 
 import { Queue } from "../../../stacks_and_queues/helpers/queue.js";
