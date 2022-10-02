@@ -18,7 +18,7 @@ import { Queue } from "../../../stacks_and_queues/helpers/queue.js";
 import { Graph, UNDIRECTED, Node } from "../graph.js";
 import { LinkedList } from "../../../linked_lists/helpers/linkedList.js";
 
-const search = (start, end) => {
+export const search = (start, end) => {
   if (!start || !end) return;
   if (start === end) {
     return [start.value];
