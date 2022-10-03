@@ -43,7 +43,8 @@ export const breadthFirstSearch = (start, end) => {
   let found;
   const path = new LinkedList();
   const visitList = new Queue();
-  start.previous = null;
+  const childParent = new Map();
+  childParent.set(start.value, null);
   visitList.add(start);
   let node;
 
@@ -51,23 +52,20 @@ export const breadthFirstSearch = (start, end) => {
     node = visitList.remove();
 
     if (node === end) {
-      found = node;
+      found = node.value;
       break;
     }
 
     for (let adj of node.getAdjacents()) {
-      if (adj && adj.previous === undefined) {
-        adj.previous = node;
+      if (adj && !childParent.has(adj.value)) {
+        childParent.set(adj.value, node.value);
         visitList.add(adj);
       }
     }
   }
-  let temp;
   while (found) {
-    path.prepend(found.value);
-    temp = found.previous;
-    found.previous = undefined;
-    found = temp;
+    path.prepend(found);
+    found = childParent.get(found);
   }
   return path.toArray();
 };
