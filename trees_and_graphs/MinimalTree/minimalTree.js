@@ -27,7 +27,7 @@ const createNode = (arr, start, end) => {
   return node;
 };
 
-const convert = (arr) => {
+export const createMinimalTree = (arr) => {
   if (arr.length <= 0) return;
 
   const minimalTree = new Tree();
@@ -38,9 +38,9 @@ const convert = (arr) => {
   return minimalTree;
 };
 
-let res = convert([2, 4, 6, 8, 10, 20]);
-console.log(res);
-console.log(inOrderTransversal([], res.root));
-res = convert([1, 2, 3, 4, 5]);
-console.log(res);
-console.log(inOrderTransversal([], res.root));
+// let res = convert([2, 4, 6, 8, 10, 20]);
+// console.log(res);
+// console.log(inOrderTransversal([], res.root));
+// res = convert([1, 2, 3, 4, 5]);
+// console.log(res);
+// console.log(inOrderTransversal([], res.root));
