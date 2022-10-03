@@ -64,6 +64,7 @@
 #### Trees and Graphs
 - [x] Auto Suggest
 - [x] Route Between Nodes - CTCI
+- [x] Minimal Tree - CTCI
 
 <br>
 
