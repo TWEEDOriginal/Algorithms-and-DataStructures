@@ -22,63 +22,69 @@ import { LinkedList } from "../../../linked_lists/helpers/linkedList.js";
 
 export const search = (start, end) => {
   if (!start || !end) return;
+
   if (start === end) {
     return [start.value];
   }
+
   const queue1 = new Queue();
   const queue2 = new Queue();
+
   let path = new LinkedList();
+
   let beginning, ending;
 
-  start.previous = null;
-  end.next = null;
+  const childParent = new Map();
+  const parentChild = new Map();
+
+  childParent.set(start.value, null);
+  parentChild.set(end.value, null);
+
   queue1.add(start);
   queue2.add(end);
+
   let node1, node2;
+
   while (!queue1.isEmpty() && !queue2.isEmpty()) {
     node1 = queue1.remove();
     node2 = queue2.remove();
     if (node1 === node2) {
-      beginning = node1;
-      ending = node2.next || undefined;
+      beginning = node1.value;
+      ending = parentChild.get(node2.value);
       break;
-    } else if (node2.previous !== undefined) {
-      beginning = node2;
-      ending = node2.next || undefined;
+    } else if (childParent.has(node2.value)) {
+      beginning = node2.value;
+      ending = parentChild.get(node2.value);
       break;
-    } else if (node1.next !== undefined) {
-      beginning = node1;
-      ending = node1.next || undefined;
+    } else if (parentChild.has(node1.value)) {
+      beginning = node1.value;
+      ending = parentChild.get(node1.value);
       break;
     }
+
     for (let adj of node1.getAdjacents()) {
-      if (adj && adj.previous === undefined) {
-        adj.previous = node1;
+      if (adj && !childParent.has(adj.value)) {
+        childParent.set(adj.value, node1.value);
         queue1.add(adj);
       }
     }
+
     for (let adj of node2.getAdjacents()) {
-      if (adj && adj.next === undefined) {
-        adj.next = node2;
+      if (adj && !parentChild.has(adj.value)) {
+        parentChild.set(adj.value, node2.value);
         queue2.add(adj);
       }
     }
   }
-  let temp;
+
   while (beginning) {
-    path.prepend(beginning.value);
-    temp = beginning.previous;
-    beginning.previous = undefined;
-    beginning.next = undefined;
-    beginning = temp;
+    path.prepend(beginning);
+    beginning = childParent.get(beginning);
   }
   path = path.toArray();
   while (ending) {
-    path.push(ending.value);
-    temp = ending.next;
-    ending.previous = undefined;
-    ending.next = undefined;
-    ending = temp;
+    path.push(ending);
+    ending = parentChild.get(ending);
   }
 
   return path;
