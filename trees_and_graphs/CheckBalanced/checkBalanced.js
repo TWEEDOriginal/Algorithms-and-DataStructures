@@ -8,9 +8,8 @@
  * Time: O(N)
  * Additional space: O(H)
  *
- * @param  {Tree}        - tree to perform check on
- * @return {Array} int[] - total height and maximum
- *                         difference in tree
+ * @param  {Tree}
+ * @return {Boolean}
  *
  */
 
