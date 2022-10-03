@@ -65,7 +65,7 @@
 - [x] Auto Suggest
 - [x] Route Between Nodes - CTCI
 - [x] Minimal Tree - CTCI
-
+- [x] List of Depths - CTCI]
 <br>
 
 ## Test
