@@ -38,9 +38,9 @@ export const createMinimalTree = (arr) => {
   return minimalTree;
 };
 
-// let res = convert([2, 4, 6, 8, 10, 20]);
+// let res = createMinimalTree([2, 4, 6, 8, 10, 20]);
 // console.log(res);
 // console.log(inOrderTransversal([], res.root));
-// res = convert([1, 2, 3, 4, 5]);
+// res = createMinimalTree([1, 2, 3, 4, 5]);
 // console.log(res);
 // console.log(inOrderTransversal([], res.root));
