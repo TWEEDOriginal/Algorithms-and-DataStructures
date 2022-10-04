@@ -67,7 +67,7 @@
 - [x] Minimal Tree - CTCI
 - [x] List of Depths - CTCI
 - [x] Check Balanced - CTCI
-
+- [x] Validate BST - CTCI
 
 <br>
 
