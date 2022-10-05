@@ -68,6 +68,7 @@
 - [x] List of Depths - CTCI
 - [x] Check Balanced - CTCI
 - [x] Validate BST - CTCI
+- [x] Successor - CTCI
 
 <br>
 
