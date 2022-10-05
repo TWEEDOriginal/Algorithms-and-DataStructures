@@ -7,8 +7,8 @@
  * in-order transversal
  * node.left -> node -> node.right
  *
- * h = |height|
- * Time: O(h)
+ * N = |tree|
+ * Time: O(logN)
  * Additional space: O(1)
  *
  * @param  {BinaryNode}
