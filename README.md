@@ -70,6 +70,7 @@
 - [x] Validate BST - CTCI
 - [x] Successor - CTCI
 - [x] Build Order - CTCI
+- [x] First Common Ancestor - CTCI
 
 <br>
 
