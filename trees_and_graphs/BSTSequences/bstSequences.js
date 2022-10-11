@@ -1,5 +1,5 @@
 /**
- * 
+ *
  * Prints all possible arrays that could
  * have created a binary search tree
  *
