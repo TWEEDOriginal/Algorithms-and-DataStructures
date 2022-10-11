@@ -71,6 +71,7 @@
 - [x] Successor - CTCI
 - [x] Build Order - CTCI
 - [x] First Common Ancestor - CTCI
+- [x] BST Sequences - CTCI
 
 <br>
 
