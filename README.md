@@ -73,6 +73,7 @@
 - [x] First Common Ancestor - CTCI
 - [x] BST Sequences - CTCI
 - [x] Check Subtree - CTCI
+- [x] Random Node - CTCI
 
 <br>
 
