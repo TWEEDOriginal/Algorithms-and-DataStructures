@@ -74,6 +74,7 @@
 - [x] BST Sequences - CTCI
 - [x] Check Subtree - CTCI
 - [x] Random Node - CTCI
+- [x] Paths with Sum - CTCI
 
 <br>
 
