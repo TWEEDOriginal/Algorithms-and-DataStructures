@@ -76,6 +76,7 @@
 - [x] Random Node - CTCI
 - [x] Paths with Sum - CTCI
 - [x] Roads and Libraries - [HackerRank](https://www.hackerrank.com/challenges/torque-and-development/)
+- [x] Find the nearest clone - [HackerRank](https://www.hackerrank.com/challenges/find-the-nearest-clone/)
 
 <br>
 
