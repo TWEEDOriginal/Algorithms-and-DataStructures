@@ -75,6 +75,7 @@
 - [x] Check Subtree - CTCI
 - [x] Random Node - CTCI
 - [x] Paths with Sum - CTCI
+- [x] Roads and Libraries - [HackerRank](https://www.hackerrank.com/challenges/torque-and-development/)
 
 <br>
 
