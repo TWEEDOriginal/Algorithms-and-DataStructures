@@ -11,8 +11,13 @@
  * Time: O(N^2)
  * Additional space: O(N^2)
  *
- * @param  {Graph}
- * @return {Number}
+ * @param  {Number} - number of cities
+ * @param  {Number} - price of building a library
+ * @param  {Number} - price of building a road
+ * @param  {Array} int[][] - city pairs that can have 
+ *                           roads between them
+ * @return {Number} - minimum_cost to make libraries
+ *                    accessible to all citizens.
  *
  */
 
