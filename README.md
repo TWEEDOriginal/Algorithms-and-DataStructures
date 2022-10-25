@@ -78,6 +78,7 @@
 - [x] Roads and Libraries - [HackerRank](https://www.hackerrank.com/challenges/torque-and-development/)
 - [x] Find the nearest clone - [HackerRank](https://www.hackerrank.com/challenges/find-the-nearest-clone/)
 - [x] BFS: Shortest Reach in a Graph - [HackerRank](https://www.hackerrank.com/challenges/ctci-bfs-shortest-reach/)
+- [x] DFS: Connected Cell in a Grid - [HackerRank](https://www.hackerrank.com/challenges/ctci-connected-cell-in-a-grid/)
 
 <br>
 
