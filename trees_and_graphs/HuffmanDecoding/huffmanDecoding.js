@@ -3,15 +3,15 @@
  * huffman encoding for strings
  *
  * decodeHuff FUNCTION:
- * 
+ *
  * N = |tree|
  * D = |height|
  * S = |huffman code|
  * Time: O(ND)
- * Additional space: O(S) 
+ * Additional space: O(S)
  *
  * @param  {String} - huffman code
- * @param  {Tree} 
+ * @param  {Tree}
  * @return {String} decoded string
  *
  */
