@@ -83,7 +83,7 @@
 - [x] Tree: Huffman Decoding - [HackerRank](https://www.hackerrank.com/challenges/tree-huffman-decoding/)
 
 #### Bit Manipulation
-- [] Insertion - CTCI
+- [x] Insertion - CTCI
 
 <br>
 
