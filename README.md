@@ -82,6 +82,9 @@
 - [x] Matrix - [HackerRank](https://www.hackerrank.com/challenges/matrix/)
 - [x] Tree: Huffman Decoding - [HackerRank](https://www.hackerrank.com/challenges/tree-huffman-decoding/)
 
+#### Bit Manipulation
+- [] Insertion - CTCI
+
 <br>
 
 ## Test
