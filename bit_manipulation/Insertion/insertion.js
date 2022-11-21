@@ -17,7 +17,7 @@
 
 const insertion = (n, m, i, j) => {
   //leftShift M by i bits
-  m = m << 2;
+  m = m << i;
 
   // clearAllBits in n that are between i and j
   const x = ~(-1 << i);
