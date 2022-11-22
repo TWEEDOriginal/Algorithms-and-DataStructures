@@ -85,6 +85,7 @@
 #### Bit Manipulation
 - [x] Insertion - CTCI
 - [x] Binary to String - CTCI
+- [x] Flip Bit to Win - CTCI
 
 <br>
 
