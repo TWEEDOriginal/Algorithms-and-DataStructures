@@ -89,6 +89,9 @@
 - [x] Next Number - CTCI
 - [x] Conversion - CTCI
 
+#### Miscellanous
+- [x] Friend Circle Queries - [HackerRank](https://www.hackerrank.com/challenges/friend-circle-queries/)
+
 <br>
 
 ## Test
