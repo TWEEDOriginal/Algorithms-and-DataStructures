@@ -89,6 +89,9 @@
 - [x] Next Number - CTCI
 - [x] Conversion - CTCI
 
+#### Object Oriented Design
+- [x] Deck of Cards - CTCI
+
 #### Miscellanous
 - [x] Friend Circle Queries - [HackerRank](https://www.hackerrank.com/challenges/friend-circle-queries/)
 
