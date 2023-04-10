@@ -447,5 +447,5 @@ class Jigsaw {
   fitsWith(edge1, edge2) {}
 }
 
-const jiggy = new Jigsaw(70);
+const jiggy = new Jigsaw(30);
 jiggy.solve();
