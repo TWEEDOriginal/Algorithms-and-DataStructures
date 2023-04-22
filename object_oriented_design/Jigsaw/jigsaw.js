@@ -47,7 +47,7 @@ class Edge {
 }
 
 class PuzzlePiece {
-  constructor(top, bottom, left, right, outsideEdgeCount) {
+  constructor(top, bottom, left, right, outsideEdgeCount, pieceIndex) {
     //Not to be used for solving the puzzle
     this.top = top;
     this.bottom = bottom;
@@ -55,6 +55,7 @@ class PuzzlePiece {
     this.right = right;
     this.isCorner = false;
     this.isBorder = false;
+    this.index = pieceIndex;
 
     if (outsideEdgeCount >= 1) {
       this.isBorder = true;
@@ -171,7 +172,8 @@ class Jigsaw {
       outsideEdgeCount++;
       this.incrementEdgeIndex();
     } else {
-      const topIndex = this.pieces[pieceIndex - n].bottom.shapeId;
+      //negative of bottom shapeId to simulate inverted shape
+      const topIndex = -this.pieces[pieceIndex - n].bottom.shapeId;
       top = new Edge(topIndex, false);
     }
 
@@ -190,7 +192,8 @@ class Jigsaw {
       outsideEdgeCount++;
       this.incrementEdgeIndex();
     } else {
-      const leftIndex = this.pieces[pieceIndex - 1].right.shapeId;
+      //negative of right shapeId to simulate inverted shape
+      const leftIndex = -this.pieces[pieceIndex - 1].right.shapeId;
       left = new Edge(leftIndex, false);
     }
 
@@ -203,7 +206,14 @@ class Jigsaw {
     const right = new Edge(this.currentEdgeIndex, isRightOutsideEdge);
     this.incrementEdgeIndex();
 
-    return new PuzzlePiece(top, bottom, left, right, outsideEdgeCount);
+    return new PuzzlePiece(
+      top,
+      bottom,
+      left,
+      right,
+      outsideEdgeCount,
+      pieceIndex
+    );
   }
 
   initializeMatrix(n) {
@@ -251,8 +261,8 @@ class Jigsaw {
     console.log("firstPiece after rotation", firstPiece);
 
     //set matrix positions recursively
-    const rightPiece = firstPiece.sides[1].shapeId;
-    this.setPosition(rightPiece, [0, 1]);
+    const leftOfNextPiece = -firstPiece.sides[1].shapeId;
+    this.setPosition(leftOfNextPiece, [0, 1]);
 
     console.log("result");
     for (let row of this.matrix) {
@@ -280,11 +290,12 @@ class Jigsaw {
         shapeMap = this.borderPieceMap;
       }
     }
-    console.log("shapeId and shapeMap", shape, shapeMap.get(shape));
+    const pieces = shapeMap.get(shape);
+    console.log("shapeId and pieces", shape, pieces);
 
-    if (!shapeMap.get(shape)) return false;
+    if (!pieces) return false;
 
-    for (let piece of shapeMap.get(shape)) {
+    for (let piece of pieces) {
       if (this.visited.has(piece)) {
         console.log("piece already visited", piece);
         continue;
@@ -372,7 +383,7 @@ class Jigsaw {
             );
             if (
               piece.sides[topEdgeIndex].shapeId !==
-              this.matrix[row - 1][column].sides[2].shapeId
+              -this.matrix[row - 1][column].sides[2].shapeId
             )
               continue;
             console.log(
@@ -424,19 +435,20 @@ class Jigsaw {
       }
 
       //setPosition
-      let rightOrBottomPiece, newMatrixPositions;
+      let leftOrTopOfNextPiecePiece, newMatrixPositions;
       if (column !== lastElem) {
-        //right
-        rightOrBottomPiece = piece.sides[1].shapeId;
+        //left
+        leftOrTopOfNextPiecePiece = -piece.sides[1].shapeId;
         //next position in that row
         newMatrixPositions = [row, column + 1];
       } else {
-        //bottom
-        rightOrBottomPiece = this.matrix[row][0].sides[2].shapeId;
+        //top
+        leftOrTopOfNextPiecePiece = -this.matrix[row][0].sides[2].shapeId;
         //first position in next row
         newMatrixPositions = [row + 1, 0];
       }
-      if (this.setPosition(rightOrBottomPiece, newMatrixPositions)) return true;
+      if (this.setPosition(leftOrTopOfNextPiecePiece, newMatrixPositions))
+        return true;
       console.log("piece in the wrong spot", piece);
       this.visited.delete(piece);
     }
@@ -447,5 +459,5 @@ class Jigsaw {
   fitsWith(edge1, edge2) {}
 }
 
-const jiggy = new Jigsaw(30);
+const jiggy = new Jigsaw(40);
 jiggy.solve();
