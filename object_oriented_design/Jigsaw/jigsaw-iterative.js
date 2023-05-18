@@ -246,12 +246,7 @@ class Jigsaw {
     let row = 0;
     let column = 1;
     const attemptedStack = new Stack();
-    const startLoop = Date.now();
     while (row <= lastElem && column <= lastElem) {
-      if (Date.now() - startLoop >= 5000) {
-        logger.info("exceeded time");
-        break;
-      }
       let shapeMap = this.insidePieceMap;
       logger.info("row and column", row, column);
       logger.info("lastElem", lastElem);
@@ -506,5 +501,5 @@ class Jigsaw {
   }
 }
 
-const jiggy = new Jigsaw(100);
+const jiggy = new Jigsaw(10);
 jiggy.solve();
