@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/TWEEDOriginal/Algorithms-and-DataStructures/issues"
   },
-  "homepage": "https://github.com/TWEEDOriginal/Algorithms-and-DataStructures#readme"
+  "homepage": "https://github.com/TWEEDOriginal/Algorithms-and-DataStructures#readme",
+  "dependencies": {
+    "winston": "^3.8.2"
+  }
 }
