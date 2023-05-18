@@ -12,12 +12,12 @@ function transform(info, opts) {
 function utilFormatter() {
   return { transform };
 }
-
+//log in a similar way to console.log
 export const logger = createLogger({
   level: "silly",
   format: format.combine(
     format.timestamp({ format: "YYYY-MM-DD HH:mm:ss.SSS" }),
-    utilFormatter(), // <-- this is what changed
+    utilFormatter(),
     format.colorize(),
     format.printf(
       ({ level, message, label, timestamp }) =>
