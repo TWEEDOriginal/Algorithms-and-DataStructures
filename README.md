@@ -94,6 +94,9 @@
 - [x] Call Center - CTCI
 - [x] Jigsaw - CTCI
 
+#### Object Oriented Design
+- [x] Triple Step - CTCI
+
 #### Miscellanous
 - [x] Friend Circle Queries - [HackerRank](https://www.hackerrank.com/challenges/friend-circle-queries/)
 
