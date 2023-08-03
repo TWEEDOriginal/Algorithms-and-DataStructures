@@ -94,9 +94,9 @@
 - [x] Call Center - CTCI
 - [x] Jigsaw - CTCI
 
-#### Object Oriented Design
+#### Recursion and Dynamic Programming
 - [x] Triple Step - CTCI
-
+- [x] Robot in a Grid - CTCI
 #### Miscellanous
 - [x] Friend Circle Queries - [HackerRank](https://www.hackerrank.com/challenges/friend-circle-queries/)
 
