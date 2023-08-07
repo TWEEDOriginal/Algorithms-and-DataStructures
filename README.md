@@ -97,6 +97,8 @@
 #### Recursion and Dynamic Programming
 - [x] Triple Step - CTCI
 - [x] Robot in a Grid - CTCI
+- [x] Towers of Hanoi - CTCI
+
 #### Miscellanous
 - [x] Friend Circle Queries - [HackerRank](https://www.hackerrank.com/challenges/friend-circle-queries/)
 
