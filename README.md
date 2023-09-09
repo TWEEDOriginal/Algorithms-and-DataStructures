@@ -99,6 +99,7 @@
 - [x] Robot in a Grid - CTCI
 - [x] Towers of Hanoi - CTCI
 - [x] Coins - CTCI
+- [x] Crossword Puzzle - [HackerRank](https://www.hackerrank.com/challenges/crossword-puzzle/)
 
 #### Miscellanous
 - [x] Friend Circle Queries - [HackerRank](https://www.hackerrank.com/challenges/friend-circle-queries/)
