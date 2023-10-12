@@ -10,7 +10,7 @@ const target = 10;
  * k = target
  * n = |arr|
  * Time: O(n^k)
- * Additional space: O(k )
+ * Additional space: O(k)
  *
  */
 function bruteForce(k, arr, i) {
