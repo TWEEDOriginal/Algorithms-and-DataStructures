@@ -4,7 +4,7 @@
  * r = |row|
  * c = |column|
  * Time: O(rc)
- * Additional space: O(rc)
+ * Additional space: O(r+c)
  *
  * @param  {array}  number[][] - grid
  * @param  {number} - row
