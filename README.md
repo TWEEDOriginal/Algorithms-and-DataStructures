@@ -101,6 +101,7 @@
 - [x] Coins - CTCI
 - [x] Crossword Puzzle - [HackerRank](https://www.hackerrank.com/challenges/crossword-puzzle/)
 - [x] Knapsack - [HackerRank](https://www.hackerrank.com/challenges/unbounded-knapsack/) 
+- [x] Construct Target Word
 
 #### Miscellanous
 - [x] Friend Circle Queries - [HackerRank](https://www.hackerrank.com/challenges/friend-circle-queries/)
