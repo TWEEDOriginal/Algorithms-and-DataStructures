@@ -102,9 +102,10 @@
 - [x] Crossword Puzzle - [HackerRank](https://www.hackerrank.com/challenges/crossword-puzzle/)
 - [x] Knapsack - [HackerRank](https://www.hackerrank.com/challenges/unbounded-knapsack/) 
 - [x] Construct Target Word
+- [x] Abbreviation - [HackerRank](https://www.hackerrank.com/challenges/unbounded-knapsack/) 
 
 #### Miscellanous
-- [x] Friend Circle Queries - [HackerRank](https://www.hackerrank.com/challenges/friend-circle-queries/)
+- [x] Friend Circle Queries - [HackerRank](https://www.hackerrank.com/challenges/abbr)
 
 <br>
 
